@@ -1,0 +1,15 @@
+Cria o repositorio no GitHub
+abre o Git na pasta do progeto:
+git init
+
+git remote add origin http://link.git
+
+TRAZ O .gitignore PARA A PASTA DO PROJETO
+git pull origin master
+
+COMANDOS:
+
+git status || verifica arquivos novos e alterados
+git add .  || adiciona arquivos para commitar
+git commit -m "titulo" || commita alterações
+git push -u origin master || envia arquivos para o GitHub
