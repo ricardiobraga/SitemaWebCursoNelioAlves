@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using SalesWebMvc.Models;
+
 using SalesWebMvc.Models.Enums;
 
 namespace SalesWebMvc.Data 

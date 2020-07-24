@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using SalesWebMvc.Models;
 using System.Linq;
 
 
@@ -27,7 +26,7 @@ namespace SalesWebMvc.Models
             Email = email;
             BirthDate = birthDate;
             Salary = salary;
-            Department = department;         
+            Department = department;
 
         }
 
@@ -43,10 +42,10 @@ namespace SalesWebMvc.Models
         }
 
 
-        public double TotalSales (DateTime initial, DateTime final)
+        public double TotalSales(DateTime initial, DateTime final)
         {
 
-            return Sales.Where(sr => sr.Date >= initial && sr.Date <= final ).Sum(sr => sr.Amount);
+            return Sales.Where(sr => sr.Date >= initial && sr.Date <= final).Sum(sr => sr.Amount);
 
         }
 
